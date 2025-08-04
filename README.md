@@ -2,7 +2,7 @@
 
 ## what's included
 
-### 1. randomspam.py - chaos spam bot
+### 1. randomspam.py - spam bot
 spam bot for whatsapp/discord/whatever. types random messages and chaos into any app.
 
 
@@ -10,9 +10,9 @@ spam bot for whatsapp/discord/whatever. types random messages and chaos into any
 1. `python randomspam.py`
 2. switch to target app during 5sec countdown
 3. click in text box
-4. watch the mayhem
+4. watch
 
-### 2. soundboard.py - chaotic soundboard
+### 2. soundboard.py - soundboard
 hotkey soundboard that plays random sound effects globally.
 
 **how to use:**
