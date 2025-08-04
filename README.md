@@ -1,8 +1,5 @@
 # fuckAround
 
-
-**DISCLAIMER: dont be a dick with these. dont harass people or get yourself banned from stuff. use responsibly or whatever.**
-
 ## what's included
 
 ### 1. randomspam.py - chaos spam bot
