@@ -1,0 +1,11 @@
+put sound files here:
+
+memes/ - meme sounds (press q)
+fx/ - sound effects (press w) 
+music/ - music clips (press e)
+misc/ - whatever (press r)
+
+space = chaos mode
+esc = quit
+
+supports .mp3, .wav, .ogg files

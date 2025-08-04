@@ -1,32 +1,51 @@
-# gilitch bot
+# fuckAround
 
-## GILITCHAHAHAH?
-js dumb spam bot that types random messages into whatever app you have open.
+## what is this repo
 
-**DISCLAIMER: dont be a dumb ahh pussio with this. use responsibly.**
+just a collection of random scripts i made when i was bored af in college. mostly automation tools and chaos bots for annoying friends or making life easier.
 
-## how to use
+**DISCLAIMER: dont be a dick with these. dont harass people or get yourself banned from stuff. use responsibly or whatever.**
 
-1. install python
-2. install pyautogui: `pip install pyautogui`
-3. run the script: `python randomspam.py`
-4. you got 5 seconds to switch to whatever app you want to spam
-5. click in the text box where you want to spam
+## what's included
 
-## how to stop
+### 1. randomspam.py - chaos spam bot
+spam bot for whatsapp/discord/whatever. types random messages and chaos into any app.
 
-- **emergency stop**: move mouse to top-left corner of screen
-- **normal stop**: ctrl+c in terminal
+
+**how to use:**
+1. `python randomspam.py`
+2. switch to target app during 5sec countdown
+3. click in text box
+4. watch the mayhem
+
+### 2. soundboard.py - chaotic soundboard
+hotkey soundboard that plays random sound effects globally.
+
+**how to use:**
+1. put sound files in sounds/ folders (memes/, fx/, music/, misc/)
+2. `python soundboard.py`
+3. press hotkeys to make noise
+
+## installation
+
+```bash
+git clone <this-repo>
+cd fuckAround
+pip install pyautogui pygame pynput
+```
 
 ## customization
 
-edit `stuff` to change message.
+wanna change messages in spam bot? edit the `stuff` list in randomspam.py.
 
-change `time.sleep()` values to change timing of the messages.
+wanna add more sound categories? add folders and update the `folders` dict in soundboard.py.
 
-add more elif statements in the main loop to change the way the code works if you kknow how to.
+wanna change hotkeys? edit the `keys` dict.
 
-## legal stuff
+## warnings
 
-use this responsibly. dont harass people. dont spam random strangers. be cool about it. i'm not responsible if you get in trouble for being an idiot with this.
+- these will type/play sounds into whatever window is active
+- some apps might detect spam and rate limit you
+- dont blame me if you get in trouble for being an idiot with these
+- be steady with it
 
