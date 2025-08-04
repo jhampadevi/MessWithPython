@@ -1,8 +1,5 @@
 # fuckAround
 
-## what is this repo
-
-just a collection of random scripts i made when i was bored af in college. mostly automation tools and chaos bots for annoying friends or making life easier.
 
 **DISCLAIMER: dont be a dick with these. dont harass people or get yourself banned from stuff. use responsibly or whatever.**
 
