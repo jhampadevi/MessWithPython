@@ -1,10 +1,9 @@
 # gilitch bot
 
 ## GILITCHAHAHAH?
+js dumb spam bot that types random messages into whatever app you have open.
 
-just a dumb spam bot i made for annoying people on whatsapp or discord or whatever. types random messages and chaos into whatever app you have open.
-
-**DISCLAIMER: dont be a dick with this. dont harass people or get yourself banned from stuff. use responsibly or whatever.**
+**DISCLAIMER: dont be a dumb ahh pussio with this. use responsibly.**
 
 ## how to use
 
