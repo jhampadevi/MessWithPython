@@ -35,7 +35,7 @@ def get_sounds():
         all_sounds[name] = []
         if os.path.exists(folder):
             for f in os.listdir(folder):
-                if f.endswith(('.mp3', '.wav', '.ogg')):
+                if f.endswith(('.mp3', '.wav', '.ogg', '.m4a', '.flac')):
                     all_sounds[name].append(os.path.join(folder, f))
                     
     return all_sounds
@@ -63,7 +63,7 @@ def random_from(category, sounds):
 def chaos_mode(sounds):
     # continuous random sounds
     global chaos
-    chaos = True
+    chaos = False  # set to true if you want to enable chaos mode
     print("CHAOS MODE! press space to stop")
     
     while chaos:
@@ -123,7 +123,7 @@ misc/ - whatever (press r)
 space = chaos mode
 esc = quit
 
-supports .mp3, .wav, .ogg files
+supports .mp3, .wav, .ogg, .m4a, .flac files
 """
     
     with open('sounds/howto.txt', 'w') as f:
